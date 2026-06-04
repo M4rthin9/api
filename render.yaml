@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: chance-change-cafe
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: SPREADSHEET_ID
+        fromSecret: SPREADSHEET_ID
+      - key: GOOGLE_SERVICE_ACCOUNT_EMAIL
+        fromSecret: GOOGLE_SERVICE_ACCOUNT_EMAIL
+      - key: GOOGLE_PRIVATE_KEY
+        fromSecret: GOOGLE_PRIVATE_KEY

@@ -1,0 +1,15 @@
+{
+  "name": "chance-change-cafe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chance & Change Cafe Visitor Booking System",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "googleapis": "^131.0.0",
+    "express": "^4.19.0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "functions": {
+    "api/getPrisoners.js": {
+      "maxDuration": 10
+    },
+    "api/getAll.js": {
+      "maxDuration": 10
+    },
+    "api/saveReservation.js": {
+      "maxDuration": 10
+    },
+    "api/uploadSlip.js": {
+      "maxDuration": 30
+    },
+    "api/updateStatus.js": {
+      "maxDuration": 10
+    },
+    "api/cancelBooking.js": {
+      "maxDuration": 10
+    },
+    "api/login.js": {
+      "maxDuration": 10
+    },
+    "api/updateVisitorApproval.js": {
+      "maxDuration": 10
+    },
+    "api/getUsers.js": {
+      "maxDuration": 10
+    },
+    "api/createUser.js": {
+      "maxDuration": 10
+    },
+    "api/getRoles.js": {
+      "maxDuration": 10
+    }
+  }
+}
