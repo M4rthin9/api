@@ -1,5 +1,5 @@
 // ===== CONFIG =====
-const API_URL = '/api';
+const API_URL = 'https://api-ifmc.onrender.com/api';
 const QUOTA = 20;
 
 // ===== CALENDAR =====

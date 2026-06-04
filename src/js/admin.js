@@ -18,7 +18,7 @@ const SIDEBAR_MENU = {
   User: ['home']
 };
 
-const API_URL = '/api';
+const API_URL = 'https://api-ifmc.onrender.com/api';
 
 // ===== STATE =====
 let allRows = [];
